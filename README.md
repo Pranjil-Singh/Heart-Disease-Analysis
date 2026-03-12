@@ -5,6 +5,15 @@ The application is built using **Python, Flask, and the Tableau Embedding API v3
 
 ---
 
+## Video Demonstration
+🎥 **[Watch the full project video documentation here](https://drive.google.com/file/d/1Nj0X17LCNq4_D10UBnz0JHzHCTEiGmx1/view?usp=sharing)**
+
+## Live Tableau Links
+If you want to view the visualizations without running the app locally, you can access them directly on Tableau Public:
+* [Dashboard](https://public.tableau.com/views/HeartDiseaseAnalysis-DAProject1/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+* [Story](https://public.tableau.com/views/HeartDiseaseAnalysis-DAProject/Story?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+
+---
 ## 🚀 Features
 
 - Interactive **Tableau dashboards and stories**
