@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Analysis</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Heart Disease Analysis</h1>
+    </header>
+
+    <main>
+        <section class="viz-section">
+            <h2>Project Dashboard</h2>
+            <div class="tableau-container dashboard-size">
+                <tableau-viz id="dashboardViz" 
+                    src="https://public.tableau.com/views/HeartDiseaseAnalysis-DAProject1/Dashboard3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" 
+                    toolbar="bottom" 
+                    hide-tabs="true">
+                </tableau-viz>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section class="viz-section">
+            <h2>Project Story</h2>
+            <div class="tableau-container story-size">
+                <tableau-viz id="storyViz" 
+                    src="https://public.tableau.com/views/HeartDiseaseAnalysis-DAProject/Story?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" 
+                    toolbar="bottom" 
+                    hide-tabs="true">
+                </tableau-viz>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Credits: Pranjil Singh, Prakhar Srivastava, Pranay Jaiswal, and Sankash Pandiya</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
